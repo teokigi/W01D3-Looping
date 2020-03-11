@@ -55,11 +55,11 @@ users = {
 }
 
 # 1. Get Jonathan's Twitter handle (i.e. the string `"jonnyt"`)
-p users["Jonathan"][:twitter]
+p "Jonathan's Twitter Handle is: #{users["Jonathan"][:twitter]}"
 # 2. Get Erik's hometown
-p users["Erik"][:home_town]
+p "Erik's hometown is: #{users["Erik"][:home_town]}"
 # 3. Get the array of Erik's lottery numbers
-p "Eriks Lottery numbers are: #{users["Erik"][:lottery_numbers]}"
+p "Erik's Lottery numbers are: #{users["Erik"][:lottery_numbers]}"
 # 4. Get the species of Avril's pet Monty
 p "Avril's pet Monty is a species of #{users["Avril"][:pets][0][:species]}"
 # 5. Get the smallest of Erik's lottery numbers
