@@ -76,3 +76,14 @@ p "Erik's home town was actually #{users["Erik"][:home_town]}"
 users["Erik"][:pets].push({:name => "Fluffy", :species => "Dog"})
 p "Erik got a new pet #{users["Erik"][:pets][4][:species]} called #{users["Erik"][:pets][4][:name]}"
 # 10. Add another person to the users hash
+users["Tony"] ={
+                   :twitter => "God_almighty",
+                   :lottery_numbers => [1,2,3,4,5,6],
+                   :home_town => "The Moon",
+                   :pets => [{
+                     :name => "Ben",
+                     :species => "Dragon"
+                   }]
+                      }
+
+  p "added new user with details twitter:#{users["Tony"][:twitter]},lotto:#{users["Tony"][:lottery_numbers]},home_town:#{users["Tony"][:home_town]},pet name:#{users["Tony"][:pets][0][:name]}, species: #{users["Tony"][:pets][0][:species]}"
