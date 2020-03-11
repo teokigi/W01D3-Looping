@@ -73,4 +73,6 @@ p "Full set of Erik's Lotto numbers are: #{users["Erik"][:lottery_numbers]}"
 users["Erik"][:home_town] = "Edinburgh"
 p "Erik's home town was actually #{users["Erik"][:home_town]}"
 # 9. Add a pet dog to Erik called "Fluffy"
+users["Erik"][:pets].push({:name => "Fluffy", :species => "Dog"})
+p "Erik got a new pet #{users["Erik"][:pets][4][:species]} called #{users["Erik"][:pets][4][:name]}"
 # 10. Add another person to the users hash
