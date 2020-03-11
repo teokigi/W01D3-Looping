@@ -24,7 +24,10 @@ p "capital of wales is #{united_kingdom[1][:capital]}"
 united_kingdom.push({name: "Northern Ireland", population: 1811000, capital: "Belfast"})
 p "added new information for #{united_kingdom[3][:name]},popul:#{united_kingdom[3][:population]},capital:#{united_kingdom[3][:capital]}"
 # 3. Use a loop to print the names of all the countries in the UK.
-for country in united_kingdom
-  p united_kingdom[country]
+count = 0
+while count < united_kingdom.length
+  p united_kingdom[count][:name]
+  count += 1
 end
+
 # 4. Use a loop to find the total population of the UK.
