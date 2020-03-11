@@ -19,4 +19,6 @@ p stops[2]
 p stops.fetch(2)
 p stops.select{ |n| n == "Falkirk High"}
 #9. Reverse the positions of the stops in the array
+p stops
+p stops.reverse
 #10 Print out all the stops using a for loop
