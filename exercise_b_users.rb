@@ -70,5 +70,7 @@ p "Avril's even lotto # are: #{users["Avril"][:lottery_numbers].select{|num| num
 users["Erik"][:lottery_numbers].push(7)
 p "Full set of Erik's Lotto numbers are: #{users["Erik"][:lottery_numbers]}"
 # 8. Change Erik's hometown to Edinburgh
+users["Erik"][:home_town] = "Edinburgh"
+p "Erik's home town was actually #{users["Erik"][:home_town]}"
 # 9. Add a pet dog to Erik called "Fluffy"
 # 10. Add another person to the users hash
