@@ -22,3 +22,6 @@ p stops.select{ |n| n == "Falkirk High"}
 p stops
 p stops.reverse
 #10 Print out all the stops using a for loop
+for stop in stops
+  p "next stop is :#{stop}"
+end
